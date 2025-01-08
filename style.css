@@ -2,7 +2,6 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #555;
 }
 
 .navbar {
@@ -111,9 +110,40 @@ body {
   background-color: white;
   color: black;
 }
-.content {
-  position: absolute;
+.homepage-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
 }
+
+.video-container {
+  flex: 1;
+  max-width: 50%;
+  margin: 5px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  /* flex: 1; */
+  max-width: 50%;
+}
+
+.description h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.description p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 /* .imge {
   padding: 0px 0px;
 }
